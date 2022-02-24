@@ -1,0 +1,84 @@
+@media only screen and (min-width:321px) and (max-width:768px){
+  
+    
+    #home-header{
+        background-image: url(../image/background-1.png);
+        height: 393px;
+        background-position: 50% 50%;
+    }
+    .navbar-rev{
+        flex-direction: row-reverse;
+        padding: 0px 0px;
+    }
+    .navbar-brand {
+        margin-right: 4.5rem;
+    }
+    .navbar .navbar-brand a img {
+        width: 125px;
+        height: auto;
+    }
+    .navbar-collapse {
+        position: fixed;
+        top: 50px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 75%;
+        height: 100%;
+    }
+    .navbar-collapse.collapsing {
+        left: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        transition: left 300ms ease-in-out;
+    }
+
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: left 500ms ease-in-out;
+    }
+    .desktop-nav{
+        display: none;
+    }
+    .main-heading {
+        margin-top: 0rem;
+    }
+    .main-heading h2 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .main-heading .btn-discove {
+        width: auto;
+        margin: 35px auto 30px;
+    }
+    .how-its .how-right .how-icon img {
+        width: 48px;
+        height: 58px;
+    }
+    .how-its .how-right .how-text h4 {
+        font-size: 1.2rem;
+        line-height: 1.2;
+    }
+
+.how-its .how-right .how-text button{
+    font-size: 14px;
+}
+.our-philosophy .our-heading h2 span {
+    font-size: 2rem;
+}
+.our-video h2 {
+    font-size: 32px;
+    line-height: 42px;
+}
+.video-btn {
+    margin-bottom: 2rem;
+}
+}
+@media only screen and (min-width:768px) and (max-width:1250px){
+    #home-header{
+        background-image: url(../image/background.png);
+    }
+}
